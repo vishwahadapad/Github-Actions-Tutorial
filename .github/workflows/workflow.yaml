@@ -24,3 +24,10 @@ jobs:
       - name: Check
         run: |
           echo "Check"
+
+  run-bash:
+    runs-on: ubuntu-latest
+    steps:
+      - user: actions/checkout@v2
+      - name: Run bash
+        run: bash hello.sh
