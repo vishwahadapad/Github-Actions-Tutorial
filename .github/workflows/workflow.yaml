@@ -28,6 +28,6 @@ jobs:
   run-bash:
     runs-on: ubuntu-latest
     steps:
-      - user: actions/checkout@v2
+      - uses: actions/checkout@v2
       - name: Run bash
         run: bash hello.sh
