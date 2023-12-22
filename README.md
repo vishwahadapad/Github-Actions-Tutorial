@@ -1,1 +1,1 @@
-## Learning Basic github actions!
+## Basic github actions!
